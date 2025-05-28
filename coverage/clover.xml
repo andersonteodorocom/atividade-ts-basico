@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1748399344339" clover="3.2.0">
+  <project timestamp="1748399344339" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6" elements="31" coveredelements="31" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="atividade_1.ts" path="C:\Users\conta\Desktop\aulas-typscript\atividade-ts-basico\atividade_1.ts">
+      <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="16" type="stmt"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="27" type="cond" truecount="1" falsecount="0"/>
+      <line num="24" count="21" type="cond" truecount="1" falsecount="0"/>
+      <line num="25" count="12" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
