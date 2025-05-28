@@ -1,31 +1,31 @@
-// Declaração de variáveis
-export const nome: string = "Maria";
-export const idade: number = 30;
-export const altura: number = 1.75;
-export const estudante: boolean = true;
+const nome: string = "Maria"
+const idade: number = 30
+const altura: number = 1.75
+const estudante: boolean = true
 
-// Função para verificar se um número é par ou ímpar
-export function verificaParImpar(numero: number): string {
-    return numero % 2 === 0 ? "par" : "ímpar";
-}
-
-// Função para calcular o somatório de 1 até n
-export function somatorio(n: number): number {
-    let soma = 0;
-    for (let i = 1; i <= n; i++) {
-        soma += i;
+const verificaParImpar = function(numero: number): string {
+    if (numero % 2 === 0) {
+        return "par";
+    } else {
+        return "ímpar";
     }
-    return soma;
-}
+};
 
-// Função para calcular o número de Fibonacci
-export function fibonacci(n: number): number {
-    if (n <= 1) return n;
+const somatorio = function(n: number): number {
+    let total = 0;
+    for (let i = 1; i <= n; i++) {
+        total += i;
+    }
+    return total;
+};
+
+const fibonacci = function(n: number): number {
+    if (n === 0) return 0;
+    if (n === 1) return 1;
     return fibonacci(n - 1) + fibonacci(n - 2);
-}
+};
 
-// Classe Retângulo
-export class Retangulo {
+class Retangulo {
     constructor(private largura: number, private altura: number) {}
 
     area(): number {
@@ -35,4 +35,6 @@ export class Retangulo {
     perimetro(): number {
         return 2 * (this.largura + this.altura);
     }
-}
+};
+
+export { altura, estudante, fibonacci, idade, nome, Retangulo, somatorio, verificaParImpar };
